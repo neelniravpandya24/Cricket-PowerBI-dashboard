@@ -2,17 +2,17 @@
 
 ## 📌 Project Overview
 
-The Cricket Analytics Dashboard is an interactive Power BI project designed to analyze cricket performance using visual analytics. It provides comprehensive insights into batting, bowling, team performance, and match statistics through interactive dashboards and Key Performance Indicators (KPIs). The dashboard enables users to explore cricket data efficiently and make data-driven observations.
+The Cricket Analytics Dashboard is an interactive Power BI project designed to analyze cricket statistics, team performance, player performance, match outcomes, and venue-wise insights. The dashboard transforms raw cricket data into meaningful visual reports using KPIs, charts, and interactive filters to help users understand tournament performance effectively.
 
 ---
 
 ## 🎯 Objectives
 
-- Analyze batting and bowling performance.
-- Compare teams and player statistics.
-- Visualize cricket data using interactive Power BI visuals.
-- Provide meaningful insights through dashboards.
-- Demonstrate Power BI reporting and data visualization skills.
+- Analyze team and player performance.
+- Monitor batting and bowling statistics.
+- Compare teams based on runs, wickets, and matches played.
+- Evaluate venue-wise and match-type performance.
+- Present cricket insights through interactive dashboards.
 
 ---
 
@@ -28,116 +28,125 @@ The Cricket Analytics Dashboard is an interactive Power BI project designed to a
 
 ## 📂 Dashboard Pages
 
-### 🏠 Home Page
+### 🏠 Page 1 – Home Page
+
 - Dashboard Navigation
 - Interactive Buttons
-- Dashboard Logo
+- Cricket Dashboard Logo
 
-### 📄 Page 1 – Player Analysis
+---
+
+### 📄 Page 2 – Tournament Overview Dashboard
+
 **KPIs**
 - Total Runs
-- Highest Runs
+- Total Wickets
+- Total Matches
 - Average Runs
-- Total Players
 
-**Visuals**
-- Top Run Scorers
-- Runs by Team
-- Player-wise Performance
-- Runs Distribution
+**Visualizations**
+- Total Runs by Team
+- Total Wickets by Team
+- Match Contribution by Team
+- Monthly Runs Trend
 
 ---
 
-### 📄 Page 2 – Bowling Analysis
+### 📄 Page 3 – Team Performance Dashboard
+
 **KPIs**
+- Highest Runs
+- Lowest Runs
 - Highest Wickets
-- Bowling Average
-- Economy Rate
-- Total Bowlers
+- Lowest Wickets
 
-**Visuals**
-- Top Wicket Takers
-- Wickets by Team
-- Bowling Performance
-- Bowling Statistics
+**Visualizations**
+- Average Runs per Team
+- Monthly Runs Trend by Match Type
+- Team Runs Contribution
+- Team Performance Summary Table
 
 ---
 
-### 📄 Page 3 – Team Analysis
+### 📄 Page 4 – Player Analysis Dashboard
+
 **KPIs**
-- Highest Team Score
-- Lowest Team Score
-- Total Teams
-- Total Matches
+- Highest Score
+- Best Bowling Figures
+- Individual Runs
+- Individual Wickets
 
-**Visuals**
-- Team Performance
-- Team Comparison
-- Team Statistics
-- Match Results
-
----
-
-### 📄 Page 4 – Match Analysis
-**KPIs**
-- Total Matches
-- Total Sixes
-- Total Fours
-- Highest Partnership
-
-**Visuals**
-- Venue-wise Matches
-- Winning Margin
-- Toss Analysis
-- Match Summary
+**Visualizations**
+- Top 10 Players by Runs
+- Venue-wise Runs Trend
+- Player Performance Comparison
+- Player Performance Summary Table
 
 ---
 
-## 📊 Features
+### 📄 Page 5 – Match & Venue Analysis Dashboard
+
+**Visualizations**
+- Venue-wise Runs Distribution
+- Match Distribution by Venue
+- Runs Breakdown by Match Type
+- Monthly Wickets Trend
+- Tournament Progress
+- Monthly Runs Trend by Match Type
+
+---
+
+## 📊 Dashboard Features
 
 - Interactive Dashboard Navigation
 - KPI Cards
-- Dynamic Charts
-- Slicers and Filters
-- Responsive Dashboard Layout
-- User-Friendly Interface
-- Data Modeling using Relationships
+- Team Performance Analysis
+- Player Performance Analysis
+- Venue-wise Insights
+- Match Type Comparison
+- Dynamic Charts and Visualizations
+- Interactive Filters and Slicers
 
 ---
 
 ## 📁 Dataset Information
 
-The dashboard is developed using an Excel dataset containing cricket statistics.
+The dashboard is developed using a cricket tournament dataset containing match, team, player, and venue statistics.
 
-### Dataset includes:
-- Player Name
+### Dataset Includes:
+
+- Match ID
 - Team Name
+- Player Name
 - Runs
 - Wickets
-- Strike Rate
-- Economy Rate
-- Match Details
+- Match Type
 - Venue
-- Result
+- Match Date
+- Tournament Information
+- Team Statistics
+- Player Statistics
 
 ---
 
 ## 📈 Key Insights
 
-- Identify top-performing batsmen.
-- Analyze highest wicket-takers.
-- Compare team performances.
-- Evaluate batting and bowling statistics.
-- Monitor match performance through interactive visuals.
+- Identify top-performing teams.
+- Analyze highest run-scoring teams.
+- Evaluate wicket-taking performance.
+- Compare player statistics.
+- Monitor venue-wise match performance.
+- Analyze trends across different match formats (ODI, T20, Test).
 
 ---
 
 ## 🚀 Future Enhancements
 
 - Live Cricket API Integration
-- IPL and International Cricket Analysis
-- Player Career Statistics
-- Match Prediction Dashboard
+- IPL Analytics Dashboard
+- World Cup Analytics Dashboard
+- Predictive Match Outcome Analysis
+- Player Career Statistics Tracking
 - Mobile-Friendly Dashboard
 
 ---
@@ -150,4 +159,4 @@ The dashboard is developed using an Excel dataset containing cricket statistics.
 
 ## 📜 Conclusion
 
-The Cricket Analytics Dashboard demonstrates the use of Microsoft Power BI for transforming raw cricket data into meaningful insights through interactive visualizations. The project highlights skills in data modeling, DAX calculations, dashboard design, and business intelligence reporting.
+The Cricket Analytics Dashboard demonstrates the effective use of Microsoft Power BI for sports analytics. It converts cricket statistics into meaningful insights through interactive dashboards, KPI cards, and visual reports. The project showcases skills in data modeling, DAX calculations, dashboard design, and business intelligence reporting to support performance analysis and decision-making in cricket analytics.
